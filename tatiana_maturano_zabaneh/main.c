@@ -95,6 +95,7 @@ void mostrar_heap(void) {
 }
 
 int main(void) {
+    // Tentanto arrumar
     int *a = aloca(10 * sizeof(int));
     char *s = aloca(32);
     double *d = aloca(5 * sizeof(double));
